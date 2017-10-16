@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Qrdering" verbose="1" >
+    <test name="OrderingTestDesktopSingleChrome" >
+        <parameter name="browser" value="chrome"/>
+        <parameter name="kind" value="desktop"/>
+        <parameter name="runType" value="single"/>
+        <classes>
+            <class name="ua.i.pl.sosnovskyi.Ordering" />
+        </classes>
+    </test>
+
+    <!--<test name="OrderingTestMobileChrome" >-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="kind" value="mobile"/>-->
+        <!--<parameter name="runType" value="single"/>-->
+        <!--<classes>-->
+            <!--<class name="ua.i.pl.sosnovskyi.Ordering" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="OrderingTest" >-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="kind" value="desktop"/>-->
+        <!--<parameter name="runType" value="grid"/>-->
+        <!--<classes>-->
+            <!--<class name="ua.i.pl.sosnovskyi.Ordering" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <!--<test name="OrderingTest" >-->
+        <!--<parameter name="browser" value="gecko"/>-->
+        <!--<parameter name="kind" value="desktop"/>-->
+        <!--<classes>-->
+            <!--<class name="ua.i.pl.sosnovskyi.Ordering" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+</suite>
